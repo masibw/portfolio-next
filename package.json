@@ -28,7 +28,6 @@
   },
   "devDependencies": {
     "@types/eslint": "^7.28.0",
-    "@types/eslint-plugin-prettier": "^3.1.0",
     "@types/node": "^16.10.2",
     "@types/prettier": "^2.4.1",
     "@types/react": "^17.0.26",
@@ -38,6 +37,7 @@
     "autoprefixer": "^10.2.6",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-next": "^11.1.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
