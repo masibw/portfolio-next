@@ -11,7 +11,12 @@ const AwardMolecules: FC<Props> = (props) => {
   const date = award.date.toISOString().substring(0, 10);
 
   return (
-    <Presenter name={award.name} description={award.description} date={date} />
+    <Presenter
+      name={award.name}
+      rank={award.rank}
+      description={award.description}
+      date={date}
+    />
   );
 };
 

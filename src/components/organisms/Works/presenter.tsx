@@ -13,9 +13,11 @@ const Presenter: FC<Props> = (props) => {
   return (
     <div>
       <CategoryHeader content="Works" />
-      {works.map((work) => (
-        <WorksMolecules work={work} />
-      ))}
+      <div className="md:flex">
+        {works.map((work) => (
+          <WorksMolecules key={work.title} work={work} />
+        ))}
+      </div>
     </div>
   );
 };

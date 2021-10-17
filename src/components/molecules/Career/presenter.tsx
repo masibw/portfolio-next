@@ -11,7 +11,7 @@ const Presenter: FC<Props> = (props) => {
   const { name, startedAt, endedAt, content } = props;
 
   return (
-    <div className="py-6 flex gap-x-8 border-b-2 border-secondary">
+    <div className="py-6 m-4 md:flex gap-x-8 border-b-2 border-secondary">
       <div className="md:w-5/12">
         <h2 className="text-3xl font-bold">{name}</h2>
         <p className="text-gray-600">
