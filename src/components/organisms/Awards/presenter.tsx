@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import Award from '../../../domain/award';
 import AwardMolecules from '../../molecules/Award/container';
+import CategoryHeader from '../../atoms/categoryHeader';
 
 type Props = {
   awards: Award[];
@@ -11,9 +12,9 @@ const Presenter: FC<Props> = (props) => {
 
   return (
     <div>
-      <h1 className="text-4xl text-primary">Awards</h1>
+      <CategoryHeader content="Awards" />
       {awards.map((award) => (
-        <AwardMolecules award={award} />
+        <AwardMolecules key={award.name} award={award} />
       ))}
     </div>
   );

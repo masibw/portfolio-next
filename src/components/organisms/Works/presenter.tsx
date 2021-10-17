@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import WorksMolecules from '../../molecules/Work/container';
 import Work from '../../../domain/work';
+import CategoryHeader from '../../atoms/categoryHeader';
 
 type Props = {
   works: Work[];
@@ -11,7 +12,7 @@ const Presenter: FC<Props> = (props) => {
 
   return (
     <div>
-      <h1 className="text-4xl text-primary">Works</h1>
+      <CategoryHeader content="Works" />
       {works.map((work) => (
         <WorksMolecules work={work} />
       ))}
