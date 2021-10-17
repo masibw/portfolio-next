@@ -13,7 +13,7 @@ const Presenter: FC<Props> = (props) => {
   return (
     <div>
       <CategoryHeader content="Awards" />
-      <div className="md:flex">
+      <div className="md:flex md:justify-center md:flex-wrap">
         {awards.map((award) => (
           <AwardMolecules key={award.name} award={award} />
         ))}
