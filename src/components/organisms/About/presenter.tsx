@@ -5,10 +5,10 @@ import CategoryHeader from '../../atoms/categoryHeader';
 const Presenter: FC = () => (
   <div>
     <CategoryHeader content="About" />
-    <div className="md:flex md:gap-x-12 md:justify-center">
-      <div className="text-center">
+    <div className="md:flex md:gap-x-12 md:justify-center text-center">
+      <div className="border rounded-3xl p-8 border-secondary inline-block">
         <Image
-          src="/icon.jpg"
+          src="/icon.svg"
           alt="masi's icon"
           width={146}
           height={146}
