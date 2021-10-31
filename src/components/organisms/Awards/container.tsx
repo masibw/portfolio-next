@@ -1,11 +1,13 @@
 import { FC } from 'react';
-import getAwards from '../../../pages/api/award';
 import Presenter from './presenter';
+import Award from '../../../domain/award';
 
-const AwardsOrganisms: FC = () => {
-  const awards = getAwards();
-
-  return <Presenter awards={awards} />;
+type Props = {
+  awards: Award[];
 };
+
+const AwardsOrganisms: FC<Props> = ({ awards }) => (
+  <Presenter awards={awards} />
+);
 
 export default AwardsOrganisms;
