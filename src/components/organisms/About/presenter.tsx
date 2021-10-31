@@ -18,32 +18,36 @@ const Presenter: FC = () => (
       </div>
       <div className="flex justify-center text-2xl leading-relaxed">
         <table>
-          <tr>
-            <td className="text-left">Name:</td>
-            <td className="text-right">まし</td>
-          </tr>
-          <tr>
-            <td className="text-left">Github:</td>
-            <td className="text-right">
-              <a href="https://github.com/masibw">@masibw</a>
-            </td>
-          </tr>
-          <tr>
-            <td className="text-left">Twitter:</td>
-            <td className="text-right">
-              <a href="https://twitter.com/masibw">@masibw</a>
-            </td>
-          </tr>
-          <td className="text-left">Mail:</td>
-          <td className="text-right">
-            <a href="mailto:masi19bw[at]gmail.com">masi19bw[at]gmail.com</a>
-          </td>
-          <tr>
-            <td className="text-left">blog:</td>
-            <td className="text-right">
-              <a href="https://mesimasi.com"> mesimasi.com</a>
-            </td>
-          </tr>
+          <tbody>
+            <tr>
+              <td className="text-left">Name:</td>
+              <td className="text-right">まし</td>
+            </tr>
+            <tr>
+              <td className="text-left">Github:</td>
+              <td className="text-right">
+                <a href="https://github.com/masibw">@masibw</a>
+              </td>
+            </tr>
+            <tr>
+              <td className="text-left">Twitter:</td>
+              <td className="text-right">
+                <a href="https://twitter.com/masibw">@masibw</a>
+              </td>
+            </tr>
+            <tr>
+              <td className="text-left">Mail:</td>
+              <td className="text-right">
+                <a href="mailto:masi19bw[at]gmail.com">masi19bw[at]gmail.com</a>
+              </td>
+            </tr>
+            <tr>
+              <td className="text-left">blog:</td>
+              <td className="text-right">
+                <a href="https://mesimasi.com"> mesimasi.com</a>
+              </td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
