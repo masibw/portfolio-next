@@ -25,25 +25,25 @@ const Presenter: FC = () => (
             </tr>
             <tr>
               <td className="text-left">Github:</td>
-              <td className="text-right">
+              <td className="text-right underline">
                 <a href="https://github.com/masibw">@masibw</a>
               </td>
             </tr>
             <tr>
               <td className="text-left">Twitter:</td>
-              <td className="text-right">
+              <td className="text-right underline">
                 <a href="https://twitter.com/masibw">@masibw</a>
               </td>
             </tr>
             <tr>
               <td className="text-left">Mail:</td>
-              <td className="text-right">
+              <td className="text-right underline">
                 <a href="mailto:masi19bw[at]gmail.com">masi19bw[at]gmail.com</a>
               </td>
             </tr>
             <tr>
               <td className="text-left">blog:</td>
-              <td className="text-right">
+              <td className="text-right underline">
                 <a href="https://mesimasi.com"> mesimasi.com</a>
               </td>
             </tr>
