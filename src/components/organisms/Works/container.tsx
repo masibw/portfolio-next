@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import Presenter from './presenter';
-import getWorks from '../../../pages/api/works';
+import Work from '../../../domain/work';
 
-const WorksOrganisms: FC = () => {
-  const works = getWorks();
-
-  return <Presenter works={works} />;
+type Props = {
+  works: Work[];
 };
+
+const WorksOrganisms: FC<Props> = ({ works }) => <Presenter works={works} />;
 export default WorksOrganisms;
