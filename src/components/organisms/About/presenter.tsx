@@ -16,17 +16,33 @@ const Presenter: FC = () => (
           layout="intrinsic"
         />
       </div>
-      <div className="flex justify-center text-2xl leading-relaxed cursor-pointer">
+      <div className="flex justify-center text-2xl leading-relaxed">
         <table>
           <tr>
-            <a href="https://github.com/masibw">Github: @masibw</a>
+            <td className="text-left">Name:</td>
+            <td className="text-right">まし</td>
           </tr>
           <tr>
-            <a href="https://twitter.com/masibw">Twitter: @masibw</a>
+            <td className="text-left">Github:</td>
+            <td className="text-right">
+              <a href="https://github.com/masibw">@masibw</a>
+            </td>
           </tr>
-          <a href="mailto:masi19bw[at]gmail.com">Mail: masi19bw[at]gmail.com</a>
           <tr>
-            <a href="https://mesimasi.com">blog: mesimasi.com</a>
+            <td className="text-left">Twitter:</td>
+            <td className="text-right">
+              <a href="https://twitter.com/masibw">@masibw</a>
+            </td>
+          </tr>
+          <td className="text-left">Mail:</td>
+          <td className="text-right">
+            <a href="mailto:masi19bw[at]gmail.com">masi19bw[at]gmail.com</a>
+          </td>
+          <tr>
+            <td className="text-left">blog:</td>
+            <td className="text-right">
+              <a href="https://mesimasi.com"> mesimasi.com</a>
+            </td>
           </tr>
         </table>
       </div>

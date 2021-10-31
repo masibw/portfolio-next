@@ -5,22 +5,23 @@ const getCareers = (): Career[] => {
   const careers: Career[] = [
     {
       name: '株式会社サイバーエージェント',
-      startedAt: new Date('2021-04-06'),
-      endedAt: new Date('2021-04-28'),
+      startedAt: new Date('2021-05-11'),
+      endedAt: new Date('2021-05-27'),
+
       content:
         'Goを使ったプロジェクトの開発に参加しました．初期アーキテクチャ・技術の選定からCI・CD環境の構築，一部の実装まで行いました．',
     },
     {
       name: '株式会社ディー・エヌー・エー',
-      startedAt: new Date('2021-05-11'),
-      endedAt: new Date('2021-05-27'),
+      startedAt: new Date('2021-04-06'),
+      endedAt: new Date('2021-04-28'),
       content:
         'インターンとして開発に参加しました．Goを用いたプロジェクトの機能開発における事前調査・変更方法の提案やAWSを用いたslackbot開発に取り組みました．',
     },
     {
       name: '株式会社VOYAGE GROUP(Sunrise)',
-      startedAt: new Date('2020-10-05'),
-      endedAt: new Date('2020-11-13'),
+      startedAt: new Date('2020-11-14'),
+      endedAt: new Date('2020-11-15'),
       content:
         '大量のアクセスに耐えうるwebサービスを構築するための講義型（？）インターンに参加しました．',
     },
