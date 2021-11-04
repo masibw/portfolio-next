@@ -19,6 +19,7 @@ const CareerMolecules: FC<Props> = (props) => {
       startedAt={startedAt}
       endedAt={endedAt}
       content={career.content}
+      isIntern={career.isIntern}
     />
   );
 };

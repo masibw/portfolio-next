@@ -14,7 +14,10 @@ const Presenter: FC<Props> = (props) => {
     <div className="pt-8">
       <CategoryHeader content="Career" />
       {careers.map((career) => (
-        <CareerMolecules key={career.name} career={career} />
+        <CareerMolecules
+          key={`${career.name}+${career.startedAt.toISOString()}`}
+          career={career}
+        />
       ))}
     </div>
   );
