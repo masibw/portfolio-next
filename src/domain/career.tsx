@@ -3,6 +3,7 @@ type Career = {
   startedAt: Date;
   endedAt?: Date;
   content: string;
+  isIntern: boolean;
 };
 
 export default Career;
